@@ -1,0 +1,140 @@
+/* import google font link */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap");
+
+/********* Common css styles ***********/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* font-family: "Inter", sans-serif; */
+    font-family: "Poppins", sans-serif;
+}
+body {
+    width: 100%;
+    max-width: 1440px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Inter", sans-serif;
+    color: #121212;
+}
+p {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #707070;
+}
+img {
+    max-width: 100%;
+}
+.btn-primary {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #ffffff;
+    background: #ff5959;
+    border: none;
+    border-radius: 5px;
+    padding: 16px 12px;
+    cursor: pointer;
+}
+
+/**************** Header css styles ****************/
+header {
+    width: 100%;
+    max-width: 1440px;
+    height: 665px;
+    background-image: url("./images/Rectangle 237.jpg");
+    background-repeat: no-repeat;
+}
+header .banner-text {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100%;
+    width: 100%;
+    padding: 170px 260px;
+    text-align: center;
+}
+.banner-text .banner-title {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 79px;
+    color: #ffffff;
+}
+.banner-text .banner-para {
+    color: #ffffff;
+    margin: 20px 0 30px;
+    padding: 0 60px;
+}
+
+/******** Main sec css styles ********/
+main {
+    padding: 0 150px;
+}
+main .section-title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    margin-bottom: 20px;
+}
+main .section-para {
+    padding: 0 170px;
+}
+
+/* Donate Today section styles */
+.donate-today {
+    margin: 100px 0;
+    text-align: center;
+}
+.donate-today .donate-cost {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 0 37px;
+}
+.donate-today .donate-cost h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 135px;
+    height: 123px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #707070;
+    background: #fafafa;
+    border-radius: 5px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+.donate-today .donate-cost h3:hover {
+    background: #ffeeee;
+    border: 2px solid #ff5959;
+    color: #ff5959;
+}
+.donate-today .other-amount {
+    color: #b3b3b3;
+    margin: 60px 0 10px;
+}
+.donate-today hr {
+    border: none;
+    border-top: 1px solid #dadada;
+    width: 975px;
+    margin: 0 auto 30px;
+}
+
+/* Donate plan section styles */
+.donate-plan {
+    text-align: center;
+    margin-bottom: 100px;
+}
