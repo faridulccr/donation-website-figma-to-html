@@ -1,6 +1,5 @@
 /* import google font link */
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Lobster&family=Manrope&family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500&display=swap");
 /********* Common css styles ***********/
 * {
     box-sizing: border-box;
@@ -41,7 +40,7 @@ img {
     line-height: 24px;
     color: #ffffff;
     background: #ff5959;
-    border: none;
+    border: 1px solid #ff5959;
     border-radius: 5px;
     padding: 16px 12px;
     cursor: pointer;
@@ -59,8 +58,6 @@ img {
 
 /**************** Header css styles ****************/
 header {
-    width: 100%;
-    max-width: 1440px;
     height: 665px;
     background-image: url("./images/Rectangle 237.jpg");
     background-repeat: no-repeat;
@@ -185,4 +182,100 @@ main .section-para {
 .plan-card p {
     font-size: 16px;
     line-height: 24px;
+}
+
+/*********** Contribute section styles *************/
+.contribute-sec .content-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.content-container .content {
+    width: 47%;
+}
+.content-container img {
+    width: 47%;
+    height: 380px;
+}
+.content-container .content p {
+    margin-bottom: 30px;
+}
+
+/*********** Updates section styles **********/
+.update-sec {
+    margin-bottom: 100px;
+    text-align: center;
+}
+.update-sec form {
+    width: 800px;
+    height: 200px;
+    background-color: #fff4d6;
+    margin: 50px auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.update-sec input[type="email"] {
+    font-family: "Roboto", sans-serif;
+    width: 275px;
+    height: 48px;
+    padding: 14px 10px 14px 17px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #aa9f9f;
+    background: #d9d9d9;
+    border-radius: 5px 0px 0px 5px;
+    border: none;
+}
+.update-sec input[type="submit"] {
+    width: 157px;
+    height: 48px;
+    background: #ff5959;
+    border-radius: 0px 5px 5px 0px;
+    border: 1px solid #ff5959;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #ffffff;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+.update-sec input[type="submit"]:hover {
+    border: 1px solid #ff5959;
+    background-color: #fff4d6;
+    color: #ff5959;
+}
+
+/************ Footer section styles ************/
+footer {
+    background-color: #1e1e1e;
+    height: 177px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer h1 {
+    font-family: "Lobster";
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0.5px;
+    color: #ff5959;
+    text-align: center;
+}
+footer p {
+    margin-top: 24px;
+    font-family: "Manrope";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    font-feature-settings: "liga" off;
+    color: #d9dbe1;
+    text-align: center;
 }
