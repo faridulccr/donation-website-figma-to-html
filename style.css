@@ -45,6 +45,16 @@ img {
     border-radius: 5px;
     padding: 16px 12px;
     cursor: pointer;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+.btn-primary:hover {
+    background-color: #ffffff;
+    color: #ff5959;
+    border: 1px solid #ff5959;
 }
 
 /**************** Header css styles ****************/
@@ -137,4 +147,42 @@ main .section-para {
 .donate-plan {
     text-align: center;
     margin-bottom: 100px;
+}
+.donate-plan .plan-card-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    text-align: left;
+}
+.donate-plan .plan-card-container .plan-card {
+    width: 325px;
+    height: 352px;
+    background: rgba(255, 89, 89, 0.1);
+    border-radius: 5px;
+    padding: 22px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+.donate-plan .plan-card-container .plan-card:hover {
+    background: rgba(79, 157, 166, 0.1);
+}
+.plan-card img {
+    width: 58px;
+    height: 48px;
+    margin: 40px 0 30px;
+}
+.plan-card h4 {
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #121212;
+    margin-bottom: 15px;
+}
+.plan-card p {
+    font-size: 16px;
+    line-height: 24px;
 }
